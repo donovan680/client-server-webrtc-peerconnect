@@ -10,7 +10,8 @@
  */
 
 // URL to the server with the port we are using for WebSockets.
-const webSocketUrl = 'ws://54.191.242.239:8080';
+const webSocketUrl = 'wss://4uvaapz45i.execute-api.us-east-1.amazonaws.com/test
+';
 // The WebSocket object used to manage a connection.
 let webSocketConnection = null;
 // The RTCPeerConnection through which we engage in the SDP handshake.
