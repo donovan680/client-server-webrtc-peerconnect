@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 project(example-server)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wpedantic -std=c++11") 
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "/usr/local/lib")
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${PROJECT_DIR}/libwebrtc)
 set(CMAKE_INSTALL_PREFIX=/usr/local)
 find_package(Threads REQUIRED)
 find_package(libwebrtc REQUIRED)
